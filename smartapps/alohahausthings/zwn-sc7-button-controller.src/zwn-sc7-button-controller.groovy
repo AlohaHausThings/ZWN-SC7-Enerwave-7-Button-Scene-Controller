@@ -3,15 +3,16 @@
  *
  *	Author: Matt Frank based on VRCS Button Controller by Brian Dahlem, based on SmartThings Button Controller
  *	Date Created: 2014-12-18
- *  	Last Updated: 2015-11-14
+ *  	Updated: 2015-11-14
+ *    Updated: 2016-08-15 https://github.com/ady624/ZWN-SC7-Enerwave-7-Button-Scene-Controller
  * 
  * 	Contributions from erocm1231 @ SmartThings Community
  *
  */
 definition(
-    name: "ZWN-SC7	 Button Controller",
-    namespace: "mattjfrank",
-    author: "Matt Frank, using code from Brian Dahlem",
+    name: "ZWN-SC7 Button Controller",
+    namespace: "alohahausthings",
+    author: "ady624 via Matt Frank, using code from Brian Dahlem",
     description: "ZWN-SC7	 7-Button	 Scene	 Controller	Button Assignment App",
     category: "Convenience",
     iconUrl: "https://s3.amazonaws.com/smartapp-icons/MyApps/Cat-MyApps.png",

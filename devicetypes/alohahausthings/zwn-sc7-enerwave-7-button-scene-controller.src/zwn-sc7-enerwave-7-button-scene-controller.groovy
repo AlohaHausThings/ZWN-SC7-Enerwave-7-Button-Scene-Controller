@@ -4,6 +4,7 @@
  *	Author: Matt Frank based on VRCS Button Controller by Brian Dahlem, based on SmartThings Button Controller
  *	Date Created: 2014-12-18
  *  Last Updated: 2015-02-13
+ *    Updated: 2016-08-15 https://github.com/ady624/ZWN-SC7-Enerwave-7-Button-Scene-Controller
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -18,7 +19,7 @@
 
  metadata {
   // Automatically generated. Make future change here.
-  definition (name: "ZWN-SC7 Enerwave 7 Button Scene Controller", namespace: "mattjfrank", author: "Matt Frank") {
+  definition (name: "ZWN-SC7 Enerwave 7 Button Scene Controller", namespace: "alohahausthings", author: "Matt Frank") {
         capability "Actuator"
         capability "Button"
         capability "Configuration"
