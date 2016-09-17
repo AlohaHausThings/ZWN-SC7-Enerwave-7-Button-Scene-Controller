@@ -4,7 +4,9 @@
  *	Author: Matt Frank based on VRCS Button Controller by Brian Dahlem, based on SmartThings Button Controller
  *	Date Created: 2014-12-18
  *  Last Updated: 2015-02-13
- *    Updated: 2016-08-15 https://github.com/ady624/ZWN-SC7-Enerwave-7-Button-Scene-Controller
+ *  Updated: 2016-08-15 https://github.com/ady624/ZWN-SC7-Enerwave-7-Button-Scene-Controller
+ *  Updated: 2016-09-17 https://github.com/AlohaHausThings/ZWN-SC7-Enerwave-7-Button-Scene-Controller
+ *    * Fixed fingerprint for device.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -30,7 +32,8 @@
         attribute "numButtons", "STRING"
         attribute "numberOfButtons", "NUMBER"
 
-    fingerprint deviceId: "0x0202", inClusters:"0x21, 0x2D, 0x85, 0x86, 0x72"
+    // zw:L type:0202 mfr:011A prod:0801 model:0B03 ver:1.05 zwv:3.42 lib:02 cc:2D,85,86,72
+    // fingerprint deviceId: "0x0202", inClusters:"0x21, 0x2D, 0x85, 0x86, 0x72"
     fingerprint deviceId: "0x0202", inClusters:"0x2D, 0x85, 0x86, 0x72"
   }
 
